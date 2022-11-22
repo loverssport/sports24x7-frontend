@@ -1,8 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import "./style.css"
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
       <span className="nav-logo">sportsLoverz</span>
@@ -14,12 +13,7 @@ const Navbar = () => {
         <a href="/legends">Legends</a>
         <a href="/contact">Contact</a>
       </div>
-      <div
-        className={`nav-toggle ${isOpen && "open"}`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <div className="bar"></div>
-      </div>
+
     </div>
   )
 }
