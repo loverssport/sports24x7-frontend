@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/home">Home</a>
         <a href="/about">News</a>
-        <a href="/service">Ranking</a>
+        <a href="/ranking">Ranking</a>
         <a href="/players">Events</a>
         <a href="/legends">Legends</a>
         <a href="/contact">Contact</a>
