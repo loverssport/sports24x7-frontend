@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { FaFacebookSquare, FaInstagramSquare, FaYoutube, FaYoutubeSquare} from 'react-icons/fa';
 import "./style.css"
 
 const Navbar = () => {
