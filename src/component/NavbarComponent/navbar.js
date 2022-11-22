@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <span className="nav-logo">sportsLoverz</span>
-      <div className={`nav-items ${isOpen && "open"}`}>
+      <div className="nav-items">
         <a href="/home">Home</a>
         <a href="/about">News</a>
         <a href="/ranking">Ranking</a>
