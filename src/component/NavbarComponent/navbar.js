@@ -7,7 +7,7 @@ const Navbar = () => {
       <span className="nav-logo">sportsLoverz</span>
       <div className="nav-items">
         <a href="/home">Home</a>
-        <a href="/about">News</a>
+        <a href="/news">News</a>
         <a href="/ranking">Ranking</a>
         <a href="/players">Events</a>
         <a href="/legends">Legends</a>
