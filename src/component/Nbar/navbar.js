@@ -1,17 +1,18 @@
 import React from 'react'
 import "./style.css"
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="Navbar">
       <span className="nav-logo">sportsLoverz</span>
       <div className="nav-items">
-        <a href="/home">Home</a>
-        <a href="/news">News</a>
-        <a href="/ranking">Ranking</a>
-        <a href="/players">Events</a>
-        <a href="/legends">Legends</a>
-        <a href="/contact">Contact</a>
+        <Link to="/home">Home</Link>
+        <Link to="/news">News</Link>
+        <Link to="/ranking">Ranking</Link>
+        <Link to="/players">Events</Link>
+        <Link to="/legends">Legends</Link>
+        <Link to="/contact">Contact</Link>
       </div>
 
     </div>
