@@ -1,5 +1,5 @@
 .background-image {
-    background-image: url('C:\Users\manas\Desktop\Personal_project\sports24x7-frontend\public\images\cricket_background.png');
+    background-image: url('./assets/images/cricket_background.png');
     background-size: cover;
     background-repeat: no-repeat ;
     height: 100vh;
