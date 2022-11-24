@@ -4,7 +4,7 @@ import "./image.css"
 
 function Imagess(){
     return(
-      <div class="background-image">
+      <div className="background-image">
         
       </div>
     )
