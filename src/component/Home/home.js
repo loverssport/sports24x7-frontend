@@ -1,10 +1,11 @@
 import React from 'react'
-import Imagess from '../../image'
+import "./home.css"
 
 const Home = () => {
   return (
     <>
-      <Imagess></Imagess>
+      <div className="background-image">  
+      </div>
     </>
   )
 }
